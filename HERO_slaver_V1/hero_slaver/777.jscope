@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="E:\单片机光盘复制备份\keil5程序\Robotpilots\5_gimbal_DR16_tample\OBJ\LED.axf" />
+            <DataFile Name="..\888.csv" />
+            <RawFile Name="..\Dataraw.jraw" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="output" Address="0x2000082C" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="28000" YAvgSampled="27993" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="20000" MaxValue="-2147483648" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="tg_speed" Address="0x200007E8" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-280" YMaxSampled="32751" YAvgSampled="0" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="100" MaxValue="400" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_real" Address="0x200007EA" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-165" YMaxSampled="17920" YAvgSampled="2" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="100" MaxValue="40000" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="err" Address="0x20000804" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-198" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="12" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="10000" MaxValue="-2147483648" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="p_output" Address="0x20000830" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="20000" MaxValue="-2147483648" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="i_output" Address="0x20000834" Type="float" TypeID="1" Size="4" GraphColorRed="128" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="-2147483648" YMaxSampled="2400" YAvgSampled="-2147483648" Offset="20" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="20000" MaxValue="4000" File="..\HARDWARE\gimbal\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

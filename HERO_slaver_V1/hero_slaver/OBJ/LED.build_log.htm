@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 5645 6666, 564654, LIC=47GVE-57NII-FWX2N-YGE2U-RW7ZU-9K24I
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\gitee\rp_hero\hero_slaver\裁判系统从控工程\USER\LED.uvprojx
+Project File Date:  04/20/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LED'
+compiling dr16.c...
+compiling CAN.c...
+compiling supercap.c...
+compiling main.c...
+compiling my_judge.c...
+..\HARDWARE\my_judge\my_judge.c(103): warning:  #550-D: variable "receive_lenth"  was set but never used
+  	u8 receive_lenth;
+..\HARDWARE\my_judge\my_judge.c(1065): warning:  #177-D: variable "pChar"  was declared but never referenced
+  	uint8_t pChar[8];
+..\HARDWARE\my_judge\my_judge.c(1066): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i, temp;
+..\HARDWARE\my_judge\my_judge.c(1066): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t i, temp;
+..\HARDWARE\my_judge\my_judge.c: 4 warnings, 0 errors
+compiling systick.c...
+compiling unknow_motor.c...
+compiling task.c...
+..\SYSTEM\task\task.c(62): warning:  #177-D: variable "top_state"  was declared but never referenced
+  	static u8 top_state = 0;
+..\SYSTEM\task\task.c(64): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 i;
+..\SYSTEM\task\task.c(66): warning:  #177-D: variable "temp"  was declared but never referenced
+  	u32 temp = 0;	
+..\SYSTEM\task\task.c(236): warning:  #550-D: variable "i"  was set but never used
+  	static u32 i = 0;
+..\SYSTEM\task\task.c: 4 warnings, 0 errors
+compiling link.c...
+..\SYSTEM\link\link.c(11): warning:  #177-D: variable "remote_time"  was declared but never referenced
+  	u32 remote_time;
+..\SYSTEM\link\link.c(238): warning:  #177-D: variable "send_cnt"  was declared but never referenced
+  	static uint16_t send_cnt = 1;
+..\SYSTEM\link\link.c(8): warning:  #177-D: variable "mpu6050_outtime"  was declared but never referenced
+  static u32 mpu6050_outtime;
+..\SYSTEM\link\link.c: 3 warnings, 0 errors
+compiling IMUsensor.c...
+..\HARDWARE\IMUsensor\IMUsensor.c(11): warning:  #177-D: variable "gyrox"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c(11): warning:  #177-D: variable "gyroy"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c(11): warning:  #177-D: variable "gyroz"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c(63): warning:  #177-D: variable "gyrox"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c(63): warning:  #177-D: variable "gyroy"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c(63): warning:  #177-D: variable "gyroz"  was declared but never referenced
+  	short gyrox, gyroy, gyroz;
+..\HARDWARE\IMUsensor\IMUsensor.c: 6 warnings, 0 errors
+compiling launcher.c...
+compiling chassis.c...
+compiling gimbal.c...
+..\HARDWARE\gimbal\gimbal.c(132): warning:  #177-D: variable "tg_angle"  was declared but never referenced
+  	float tg_angle = 0;
+..\HARDWARE\gimbal\gimbal.c: 1 warning, 0 errors
+compiling bmi2_common.c...
+compiling bmi.c...
+compiling iic.c...
+compiling myiic.c...
+compiling spi2.c...
+linking...
+Program Size: Code=25628 RO-data=1436 RW-data=780 ZI-data=11372  
+FromELF: creating hex file...
+"..\OBJ\LED.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:\keil5\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
